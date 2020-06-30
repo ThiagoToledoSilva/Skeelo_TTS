@@ -8,7 +8,7 @@ Feature: Acesso ao sistema
   Scenario: Acessar a aplicação
     Given que informo a URL "<https://aplicação.clientes.com/login>" no browser
     When abro o browser
-    Then exibe tela para informar usuário e senha
+    Then exibe tela para informar usuario e senha
 
   Scenario: Logar na aplicação
   	Given estou na tela de login

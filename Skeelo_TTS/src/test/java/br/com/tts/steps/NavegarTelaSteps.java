@@ -46,12 +46,12 @@ public class NavegarTelaSteps {
 	public void exibeTodasOportunidades() throws Throwable {
 	}
 
-	@When("^clico em Adicionar um Gráfico Aqui$")
-	public void clicoEmAdicionarUmGráficoAqui() throws Throwable {
+	@When("^clico em Adicionar um Grafico Aqui$")
+	public void clicoEmAdicionarUmGraficoAqui() throws Throwable {
 	}
 
-	@Then("^exibe Gráfico de vendas$")
-	public void exibeGráficoDeVendas() throws Throwable {
+	@Then("^exibe Grafico de vendas$")
+	public void exibeGraficoDeVendas() throws Throwable {
 	}
 
 	@When("^pesquiso Atividade cadastrada$")

@@ -14,8 +14,8 @@ public class AcessoSistemaSteps {
 	public void abroOBrowser() throws Throwable {
 	}
 	
-	@Then("^exibe tela para informar usuário e senha$")
-	public void exibeTelaParaInformarUsuárioESenha() throws Throwable {
+	@Then("^exibe tela para informar usuario e senha$")
+	public void exibeTelaParaInformarUsuarioESenha() throws Throwable {
 	}
 
 	@Given("^estou na tela de login$")
@@ -23,7 +23,7 @@ public class AcessoSistemaSteps {
 	}
 
 	@When("^informo usuário \"([^\"]*)\" e senha \"([^\"]*)\" e confirmo$")
-	public void informoUsuárioESenhaEConfirmo(String arg1, String arg2) throws Throwable {
+	public void informoUsuarioESenhaEConfirmo(String arg1, String arg2) throws Throwable {
 	}
 
 	@Then("^acesso o sistema de Clientes$")

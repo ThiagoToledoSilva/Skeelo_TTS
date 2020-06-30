@@ -1,5 +1,6 @@
 package br.com.tts.steps;
 
+import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
@@ -21,8 +22,12 @@ public class PesquisarInformacoesClientesSteps {
 	public void exibeEmailDoCliente(String arg1) throws Throwable {
 	}
 
-	@Then("^exibe localização \"([^\"]*)\" do cliente$")
-	public void exibeLocalizaçãoDoCliente(String arg1) throws Throwable {
+	@When("^não exibe local cadastrado$")
+	public void naoExibeLocalCadastrado() throws Throwable {
+	}
+
+	@Then("^exibe alerta \"([^\"]*)\" em tela$")
+	public void exibeAlertaEmTela(String arg1) throws Throwable {
 	}
 
 	@When("^exibe atividades em atraso (\\d+) do cliente$")
@@ -42,7 +47,7 @@ public class PesquisarInformacoesClientesSteps {
 	}
 
 	@Then("^exibe total de atividades <opp_tot> do cliente igual à soma das atividades em atraso, em andamento, previstas e comcluídas$")
-	public void exibeTotalDeAtividadesOpp_totDoClienteIgualÀSomaDasAtividadesEmAtrasoEmAndamentoPrevistasEComcluídas() throws Throwable {
+	public void exibeTotalDeAtividadesOpp_totDoClienteIgualASomaDasAtividadesEmAtrasoEmAndamentoPrevistasEComcluidas() throws Throwable {
 	}
 
 	@When("^exibe oportunidades ganhas (\\d+) do cliente$")
@@ -62,7 +67,7 @@ public class PesquisarInformacoesClientesSteps {
 	}
 
 	@Then("^exibe total de oportunidades (\\d+) do cliente igual à soma das oportunidades ganhas, perdidas, abertas e descartadas$")
-	public void exibeTotalDeOportunidadesDoClienteIgualÀSomaDasOportunidadesGanhasPerdidasAbertasEDescartadas(int arg1) throws Throwable {
+	public void exibeTotalDeOportunidadesDoClienteIgualASomaDasOportunidadesGanhasPerdidasAbertasEDescartadas(int arg1) throws Throwable {
 	}
 
 	@Then("^exibe limite concedido menor que limite disponível do cliente$")
@@ -74,11 +79,11 @@ public class PesquisarInformacoesClientesSteps {
 	}
 
 	@When("^solicito aumento de limite de crédito$")
-	public void solicitoAumentoDeLimiteDeCrédito() throws Throwable {
+	public void solicitoAumentoDeLimiteDeCredito() throws Throwable {
 	}
 
 	@When("^o total de títulos financeiros vencidos é maior que o total de títulos pagos$")
-	public void oTotalDeTítulosFinanceirosVencidosÉMaiorQueOTotalDeTítulosPagos() throws Throwable {
+	public void oTotalDeTítulosFinanceirosVencidosEMaiorQueOTotalDeTitulosPagos() throws Throwable {
 	}
 
 	@Then("^quando solicitar aumento de limite exibe mensagem impeditiva \"([^\"]*)\"$")

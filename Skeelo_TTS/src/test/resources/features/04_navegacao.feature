@@ -5,7 +5,7 @@ Feature: Navegar no Sistema
   Para acessar aplicativos e redes sociais
   
 Background: 
-		Given acesseo ao sistema
+		Given acesso ao sistema
 		And estou logado  
 
   Scenario: Abrir links das redes sociais
@@ -25,8 +25,8 @@ Background:
     Then exibe todas Oportunidades
 
   Scenario: Adicionar Grádfico de Vendas
-    When clico em Adicionar um Gráfico Aqui
-    Then exibe Gráfico de vendas
+    When clico em Adicionar um Grafico Aqui
+    Then exibe Grafico de vendas
     
   Scenario: Pesquisar Atividades
     When pesquiso Atividade cadastrada

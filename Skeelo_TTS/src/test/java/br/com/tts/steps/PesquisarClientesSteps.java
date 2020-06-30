@@ -7,11 +7,11 @@ import cucumber.api.java.en.When;
 public class PesquisarClientesSteps {
 
 	@Given("^estou logado na aplicação$")
-	public void estouLogadoNaAplicação() throws Throwable {
+	public void estouLogadoNaAplicacao() throws Throwable {
 	}
 
 	@When("^informo usuário com cadastro inativo \"([^\"]*)\" e confirmo$")
-	public void informoUsuárioComCadastroInativoEConfirmo(String arg1) throws Throwable {
+	public void informoUsuarioComCadastroInativoEConfirmo(String arg1) throws Throwable {
 	}
 
 	@Then("^exibe mensagem \"([^\"]*)\"$")
@@ -19,6 +19,6 @@ public class PesquisarClientesSteps {
 	}
 
 	@When("^pesquiso cliente ativo \"([^\"]*)\"$")
-	public void informoUsuárioComCadastroAtivoEConfirmo(String arg1) throws Throwable {
+	public void informoUsuarioComCadastroAtivoEConfirmo(String arg1) throws Throwable {
 	}
 }
